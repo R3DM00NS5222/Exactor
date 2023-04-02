@@ -28,6 +28,31 @@ namespace Exactor.Controllers
             return View();
         }
 
+        public IActionResult NineToFive()
+        {
+            return View();
+        }
+        
+        public IActionResult ElevenToSeven()
+        {
+            return View();
+        }
+        
+        public IActionResult CloserJunior()
+        {
+            return View();
+        }
+        
+        public IActionResult CloserSenior()
+        {
+            return View();
+        }
+        
+        public IActionResult GravesManager()
+        {
+            return View();
+        }
+
         public IActionResult Tasks()
         {
             return View();
