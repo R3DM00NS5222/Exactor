@@ -1,12 +1,16 @@
 ﻿@{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Dating List";
 }
 <h1>@ViewData["Title"]</h1>
 
 <main>
-    <h1>Dating List</h1>
-
-    <section class="bakery cabinet">
+    <div class="date-form">
+        <label for="date1">Date:</label>
+        <input type="date" id="date1" name="trip-start"
+               value="2018-07-22"
+               min="2023-01-01" max="2050-12-31">
+    </div>
+    <section class="bakeryCabinet border-bottom border-top border-dark">
         <div class="heading">
             <h2>Bakery Cabinet</h2>
         </div>
@@ -26,7 +30,7 @@
         </div>
     </section>
 
-    <section class="syrups">
+    <section class="syrups border-bottom border-dark">
         <div class="heading">
             <h2>Syrups</h2>
         </div>
@@ -42,7 +46,7 @@
         </div>
     </section>
 
-    <section class="mccafe area">
+    <section class="mccafe border-bottom border-dark">
         <div class="heading">
             <h2>McCafe Area</h2>
         </div>
@@ -66,7 +70,7 @@
         </div>
     </section>
 
-    <section class="ice cream">
+    <section class="iceCream border-bottom border-dark">
         <div class="heading">
             <h2>Ice Cream</h2>
         </div>
@@ -88,7 +92,7 @@
         </div>
     </section>
 
-    <section class="spoon & cup">
+    <section class="spoonNcup d-flex border-bottom border-dark">
         <div>
             <div class="heading">
                 <h2>Spoon & Cup Sanitizing (Every 2 hours)</h2>
@@ -112,7 +116,7 @@
             <div class="subhead">
                 <h3>Time</h3>
             </div>
-            <div class="form-group1">
+            <div class="form-group">
                 <form>
                     <input type="checkbox" id="time1" name="time1" value="7">
                     <label for="time1">7am</label><br>
@@ -129,7 +133,7 @@
         </div>
     </section>
 
-    <section class="spray bottles">
+    <section class="sprayBottles border-dark border-bottom">
         <div class="heading">
             <h2>Spray Bottles</h2>
         </div>
@@ -145,7 +149,7 @@
         </div>
     </section>
 
-    <section class="bartowels d-flex">
+    <section class="bartowels d-flex border-dark border-bottom">
         <div>
             <div class="heading">
                 <h2>Bartowels (Every 2 hours)</h2>
@@ -165,7 +169,7 @@
             <div class="subhead">
                 <h3>Time</h3>
             </div>
-            <div class="form-group1">
+            <div class="form-group">
                 <form>
                     <input type="checkbox" id="time1" name="time1" value="7">
                     <label for="time1">7am</label><br>
@@ -182,7 +186,7 @@
         </div>
     </section>
 
-    <section class="others">
+    <section class="others border-dark border-bottom">
         <div class="heading">
             <h2>Others</h2>
         </div>
@@ -196,7 +200,7 @@
         </div>
     </section>
 
-    <section class="kitchen prep table">
+    <section class="kitchenPrepTable border-dark border-bottom">
         <div class="heading">
             <h2>Kitchen Prep Table</h2>
         </div>
@@ -254,7 +258,7 @@
         </div>
     </section>
 
-    <section class="kitchen sanitizing d-flex">
+    <section class="kitchenSanitizing d-flex border-dark border-bottom">
         <div>
             <div class="heading">
                 <h2>Kitchen Sanitizing every 2 hours</h2>
@@ -278,7 +282,7 @@
             <div class="subhead">
                 <h3>Time</h3>
             </div>
-            <div class="form-group1">
+            <div class="form-group">
                 <form>
                     <input type="checkbox" id="time1" name="time1" value="7">
                     <label for="time1">7am</label><br>
@@ -295,7 +299,7 @@
         </div>
     </section>
 
-    <section class="cleaning">
+    <section class="cleaning border-dark border-bottom">
         <div class="heading">
             <h2>Cleaning</h2>
         </div>
@@ -315,7 +319,7 @@
         </div>
     </section>
 
-    <section class="handwash">
+    <section class="handwash border-dark border-bottom">
         <div class="heading">
             <h2>Hand Washing</h2>
         </div>
@@ -334,7 +338,7 @@
         <div class="form-group">
             <form>
                 <label for="comment">Comments:</label><br>
-                <input type="text" id="cmment" name="cmment"><br><br>
+                <input type="text" id="comment" name="comment"><br><br>
             </form>
         </div>
     </section>
